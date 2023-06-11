@@ -23,9 +23,15 @@ public class LoopLoopTest {
         // 구구단 과제
         // Q. 이중 반복문을 이용하여 아래와 같은 구구단(9X9)을 출력하세요.
 
-        for (int i = 2; i < 10; i++){
-            for(int j = 1; j < 10; j++){
-                System.out.print(i + "X" + j + "=" + i*j + "\t");
+        for(int i = 2; i <= 9; i++){
+            System.out.print(i + "단" + "\t\t");
+        }
+
+        System.out.println();
+
+        for (int i = 1; i < 10; i++){
+            for(int j = 2; j < 10; j++){
+                System.out.print(j + "X" + i + "=" + j*i + "\t");
             }
             System.out.println();
         }
