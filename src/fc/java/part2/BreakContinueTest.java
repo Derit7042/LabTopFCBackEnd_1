@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class BreakContinueTest {
     public static void main(String[] args) {
         // Q. char[] c = {'s', 'h', 'u', 't', 'd', 'o', 'w', 'n'};

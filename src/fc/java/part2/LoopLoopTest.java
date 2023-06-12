@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class LoopLoopTest {
     public static void main(String[] args) {
         int index = 1;
