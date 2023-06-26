@@ -9,9 +9,9 @@ public class PersonVO {
     public PersonVO() {
         // 객체를 생성하는 코드는 내부에서 만들어진다.
         // 객체의 초기화를 한다.
-        this.name = "홍길동"; // this. 생략 가능
-        this.age = 50;
-        this.phone = "010-1111-1111";
+        // this.name = "홍길동"; // this. 생략 가능
+        // this.age = 50;
+        // this.phone = "010-1111-1111";
     }
 
     // 생성자의 오버로딩
@@ -41,5 +41,9 @@ public class PersonVO {
     }
     public String getPhone() {
         return  phone; //this.phone
+    }
+
+    public String toString() {
+        return name + "\t" + age + "\t" + phone;
     }
 }
