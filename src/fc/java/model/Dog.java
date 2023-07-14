@@ -3,6 +3,9 @@ package fc.java.model;
 public class Dog extends Animal{
     public Dog(){
         super(); // new Animal();
-        int a = 10; // 수행문
+    }
+    // 재정의(Override)
+    public void eat(){
+        System.out.println("개처럼 먹다.");
     }
 }
