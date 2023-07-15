@@ -13,5 +13,9 @@ public class ObjectCasting {
         ani = new Cat();
         ani.eat();
         // ani.night(); // 다운케스팅(DownCasting)
+
+        // Cat c = (Cat)ani;
+        // c.night();
+        ((Cat)ani).night();
     }
 }
