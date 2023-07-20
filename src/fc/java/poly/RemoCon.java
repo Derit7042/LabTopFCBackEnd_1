@@ -1,12 +1,12 @@
 package fc.java.poly;
 // 추상클래스 = 추상메서드 + 구현메서드
-public abstract class RemoCon {
+public interface RemoCon {
     // chUp(), chDown(), volUp(), volDown()
-    public abstract void chUP();
-    public abstract void chDown();
-    public abstract void volUP();
-    public abstract void volDown();
-    public void internet(){
-        System.out.println("인터넷이 구동된다.");
-    }
+    // interface 으로 하면 public 다음에 abstract를 생략해도 된다.
+    public void chUP();
+    public void chDown();
+    public void volUP();
+    public void volDown();
+    public void internet();
+
 }
